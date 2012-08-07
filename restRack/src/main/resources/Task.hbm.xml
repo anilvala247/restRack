@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Jun 20, 2011 10:24:54 PM by Hibernate Tools 3.4.0.Beta1 -->
+<hibernate-mapping>
+    <class name="com.rack.Task" table="TASK">
+        <id name="taskID" type="long">
+            <column name="TASKID" />
+            <generator class="assigned" />
+        </id>
+        <property name="userId" type="java.lang.Long">
+            <column name="USERID" />
+        </property>
+        <property name="title" type="java.lang.String">
+            <column name="TITLE" />
+        </property>
+        <property name="status" type="java.lang.String">
+            <column name="STATUS" />
+        </property>
+        <property name="dueDate" type="java.util.Date">
+            <column name="DUEDATE" />
+        </property>
+    </class>
+</hibernate-mapping>

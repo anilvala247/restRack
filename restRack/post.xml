@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<task>
+	<dueDate>2012-08-21T00:00:00-04:00</dueDate>
+	<title>Test</title>
+	<status>Completed</status>
+	<taskID>3</taskID>
+	<userId>
+		12
+	</userId>
+</task>
